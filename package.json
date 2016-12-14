@@ -1,0 +1,22 @@
+{
+  "name": "fuber",
+  "version": "1.0.0",
+  "description": "the poc fuber app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayhegde/fuber_poc.git"
+  },
+  "keywords": [
+    "fuber"
+  ],
+  "author": "vinayhegde@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayhegde/fuber_poc/issues"
+  },
+  "homepage": "https://github.com/vinayhegde/fuber_poc#readme"
+}
