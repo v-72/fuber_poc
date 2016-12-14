@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<h3>Fuber Cab Services</h3>
+	<p>List of available cabs</p>
+	<ul id="cabs">
+		
+	</ul>
+	<script>
+		$(document).ready(function(){
+				$.get("http://localhost:8080/cabs?type=all",function(result){
+					var list= "";
+					result.forEach(function(cab){
+							list = list + "<li>"+cab.name+"</li>";
+					})
+					
+					setTimeout(function(){$("#cabs").append(list)},1000);
+				})
+		})
+	</script>
+</body>
+</html>
